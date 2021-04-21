@@ -1,0 +1,4 @@
+3
+39C:\Users\Lenovo\Desktop\demo\19.DOM\src132634477796721473 1
+50C:\Users\Lenovo\Desktop\demo\19.DOM\src\index.html132634479654732686 0
+47C:\Users\Lenovo\Desktop\demo\19.DOM\src\main.js132634479810407294 0

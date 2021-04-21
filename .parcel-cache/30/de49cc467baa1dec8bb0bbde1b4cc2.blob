@@ -1,0 +1,8 @@
+window.dom = {
+    create(string) {
+        const container = document.createElement("template");//div不能容纳<td>元素，<td>只能存放在table里，所以用template，它可以容纳所有元素
+        container.innerHTML = string;
+        return container.children[0];
+    }
+};
+

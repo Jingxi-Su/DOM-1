@@ -1,0 +1,3 @@
+const div1 = dom.create("<div><span>1</span></div>");
+console.log(div1);
+

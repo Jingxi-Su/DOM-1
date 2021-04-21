@@ -1,0 +1,46 @@
+window.dom = {
+    create(string) {//创建节点
+        const container = document.createElement("template");
+        container.innerHTML = string.trim();//trim去掉字符串两边的空格
+        return container.content.firstChild;
+    //     const container = document.createElement("div"); //div不能容纳<td>元素，<td>只能存放在table里，所以用template，它可以容纳所有元素
+    //     container.innerHTML = string;
+    //     return container.children[0]; //template不能用这种方法获取
+     },
+     after(node, node2){//新增弟弟
+         node.parentNode.insertBefore(node2, node.nextSibling);//插到node的下一个孩子的前面
+     },
+     before(node, node2){//新增哥哥
+        node.parentNode.insertBefore(node2, node);//插到node的前面
+    },
+    append(parent, node){//新增儿子
+        parent.appendChild(node);
+    },
+    wrap(node, parent){//新增爸爸
+        dom.before(node, parent);//先把parent插到node前面
+        dom.append(parent, node);//再把node变成parent的孩子（append后，原位置的节点会自动消失）
+    },
+    remove(node){//删除节点
+        node.parentNode.removeChild(node);
+        return node
+    },
+    empty(node){
+        const {childNodes} = node;//即childNodes = node.childNodes的简写
+        const array = [];
+        let x = node.firstChild;
+        while(x){
+            array.push(dom.remove(node.firstChild));
+            x = node.firstChild;
+        }
+        return array;
+    },
+    attr(node, name, value){
+        if(arguments.length === 3){
+            node.setAttribute(name, value);
+        }else if(arguments.length === 2){
+            return node.getAttribute(name);
+        }
+        
+    }
+};
+

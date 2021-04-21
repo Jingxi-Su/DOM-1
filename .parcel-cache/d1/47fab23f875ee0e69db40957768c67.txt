@@ -1,0 +1,11 @@
+10
+40C:\Users\Lenovo\Desktop\demo\19.DOM\dist132634917228143226 1
+39C:\Users\Lenovo\Desktop\demo\19.DOM\src132634482895194151 1
+58C:\Users\Lenovo\Desktop\demo\19.DOM\dist\index.bd78eeec.js132634917228103322 0
+62C:\Users\Lenovo\Desktop\demo\19.DOM\dist\index.9b0ae0e5.js.map132634917228143226 0
+46C:\Users\Lenovo\Desktop\demo\19.DOM\src\dom.js132634917061811284 0
+50C:\Users\Lenovo\Desktop\demo\19.DOM\src\index.html132634914685417441 0
+47C:\Users\Lenovo\Desktop\demo\19.DOM\src\main.js132634917979878518 0
+62C:\Users\Lenovo\Desktop\demo\19.DOM\dist\index.bd78eeec.js.map132634917228133248 0
+58C:\Users\Lenovo\Desktop\demo\19.DOM\dist\index.9b0ae0e5.js132634917228113307 0
+51C:\Users\Lenovo\Desktop\demo\19.DOM\dist\index.html132634917228103322 0

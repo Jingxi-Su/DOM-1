@@ -1,0 +1,3 @@
+const div1 = dom.create("<tr><td>1</td></tr>");
+console.log(div1);
+

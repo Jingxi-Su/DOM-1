@@ -1,0 +1,12 @@
+window.dom = {
+    create(string) {
+        const container = document.createElement("template");
+        container.innerHTML = string.trim();//trim去掉字符串两边的空格
+        return container.content.firstChild;
+    //     const container = document.createElement("div"); //div不能容纳<td>元素，<td>只能存放在table里，所以用template，它可以容纳所有元素
+    //     container.innerHTML = string;
+    //     return container.children[0]; //template不能用这种方法获取
+     }
+     
+};
+
